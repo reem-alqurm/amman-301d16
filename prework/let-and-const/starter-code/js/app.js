@@ -37,7 +37,8 @@ function displayPics(){
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // let allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used, 
+  // unlike the var keyword, which declares a variable globally, or locally to an entire function regardless of block scope.
   console.log(viewed);
 
   for (var i = 0; i < 3; i++){
